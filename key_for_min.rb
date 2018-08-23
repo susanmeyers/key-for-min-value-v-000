@@ -4,8 +4,8 @@
 def key_for_min_value(name_hash)
   #hash = {:blake => 500, :ashley => 2, :adam => 1}
 
-    hash.sort_by { |key, value| value }.first
-    
+    hash.keys{ |key, value| value }.first
+
 
 
 
